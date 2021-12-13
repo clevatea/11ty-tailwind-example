@@ -1,6 +1,6 @@
 # 11ty + Tailwind Example
 
-This is simple example how to combine 11ty + Tailwind.js
+This is simple example how to combine 11ty + Tailwind css
 
 ## Installation
 
