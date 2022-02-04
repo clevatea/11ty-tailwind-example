@@ -1,6 +1,6 @@
-# 11ty + Tailwind Example
+# 11ty + Tailwind + Alpinejs Example
 
-This is simple example how to combine 11ty + Tailwind CSS + alpinejs
+This is simple example how to combine 11ty + Tailwind CSS + Alpinejs
 
 ## Installation
 
