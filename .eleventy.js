@@ -14,12 +14,14 @@ module.exports = (eleventyConfig) => {
   eleventyConfig.addFilter("isoString", (date = Date.now()) => new Date(date).toISOString());
   eleventyConfig.addWatchTarget("src/**/*");
   eleventyConfig.addWatchTarget("./dist/main.css");
-  eleventyConfig.addPassthroughCopy("./tailwind.config.js");
-  eleventyConfig.addPassthroughCopy({ "./src/tailwind.css": 'tailwind.css' });
-  eleventyConfig.addPassthroughCopy({ "./package.forDist.json": 'package.json' });
 
   eleventyConfig.setWatchThrottleWaitTime(100);
 
+  /**
+   * use prettier auto format for output build  
+   * remove if you dont need 
+   * use minify instead https://www.11ty.dev/docs/config/#transforms-example-minify-html-output
+   */
   eleventyConfig.addTransform("prettier", function (content, outputPath) {
     const extname = path.extname(outputPath);
     switch (extname) {
