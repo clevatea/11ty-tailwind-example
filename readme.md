@@ -27,3 +27,5 @@ npm run start
 11ty : [https://www.11ty.dev/](https://www.11ty.dev/)
 
 Tailwind : [https://tailwindcss.com/](https://tailwindcss.com/)
+
+Alpinejs : [https://alpinejs.dev/](https://alpinejs.dev/)
